@@ -1,0 +1,20 @@
+site_name: Estrutura Workshop ETL
+theme:
+  name: material # or other theme
+  palette:
+    primary: blue
+  language: en
+
+repo_name: "PedroPauloMR/workshop_ds_project_structure"
+repo_url: "https://github.com/PedroPauloMR/workshop_ds_project_structure"
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+
+plugins:
+  - search
+  - mkdocstrings:
+      default_handler: python
