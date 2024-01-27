@@ -9,3 +9,4 @@ if __name__ == "__main__":
     # print(type(data_frame))
     load_excel(data_frame, "data/output", "output")
     print('Done!')
+    print('Done!')
